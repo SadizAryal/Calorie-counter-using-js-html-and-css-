@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+body{
+   font-family:  Playfair Display;
+height:300vh;
+background-color:whitesmoke;
+height: 143vh;
+
+}
+.intro{
+    display:flex;
+    gap:150px
+}
+.logos {
+    display: flex;
+    gap: 6px;
+    padding: 15px;
+  margin: 0;
+}
+.logos h5{
+    font-size: larger;
+
+}
+.navbar {
+ 
+    color: black;
+    height: 25px;
+    padding: 14px 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+
+}
+
+.navbar a {
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+padding: 20px;
+
+}
+
+.navbar a:hover {
+    background-color: aliceblue;
+}
+.center{
+    text-align: center;
+    padding:20px 20px 20px 20px;
+    margin: 30px;
+    display:flex;
+  justify-content: center;
+
+
+}
+.contents{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    flex-direction: column;
+}
+.btns{
+    height:35px;
+    width: 245px;
+    border-radius: 5px;
+    border:none;
+}
+.btns:hover{
+    height:35px;
+    width: 245px;
+    border-radius: 5px;
+    background-color:rgb(220, 215, 215);
+}
+.images{
+    border:2px solid grey;
+    height:40vh;
+    width:60vw;
+overflow-y: scroll;
+display:none;
+
+}
+.CalCount{
+    display: flex;
+    gap:25px;
+   justify-content: space-between;
+right:30px;
+}
+.result{
+
+    height:25vh;
+    width:30vw;
+    display: none;
+    
+}
+.result h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-shadow:2px 2px 2px 2px black;
+}
+.furtherInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:25px;
+    
+}
+.furtherInfo .vip{
+    font-family:  Playfair Display;
+}
+.premium {
+    display: flex;
+    padding: 10px 65px;
+    flex-direction: column;
+    gap: 15px;
+    border:3px solid rgb(131, 127, 127);
+    border-radius:10px;
+    filter: blur(2px);
+  
+}
+
+.premium a {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.premium a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #71827a;
+    border-radius: 8px;
+
+}
+
+.button .premium2{
+    display:none;
+}
+.macros1{
+    color: black;
+    font-size: 19px;
+    
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+.macros1 span:hover{
+    color: rgb(0, 0, 0);
+    background-color: #a6b3ad;
+border-radius:8px;
+cursor:pointer
+
+
+}
+.macros1 span{
+text-shadow: 3px 3px 3px 3px whitesmoke;
+}
+.premium2{
+    display: flex;
+    padding: 10px 65px;
+    flex-direction: column;
+    gap: 15px;
+    border:1px solid rgb(131, 127, 127);
+    border-radius:10px;
+    filter: blur(1.4px);
+    width: 100px;
+}
+
+.premium2 a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #71827a;
+    border-radius: 8px;
+
+}
+.premium2 a {
+    color: black;
+    font-size: 19px;
+    
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+    
+}
+.button{
+    height:35px;
+    width: 150px;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+}
+
+.btns2{
+    height:35px;
+    width: 250px;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+}
+.btns2:hover{
+    background-color: grey;
+}
+.img1{
+    height: 100px;
+    border-radius:50%;
+
+}
+.imgCont{
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 115px;
+    cursor:pointer;
+    display: flex;
+    gap:23px;
+    
+    
+}
+
+
+.quantity{
+    display:none;
+}
+
+footer{
+    padding:30px;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+
+
+}
